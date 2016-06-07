@@ -1,0 +1,30 @@
+{
+    "name": "nklatt/debugout",
+    "description": "DebugOut for PHP, for tracing code execution the old-fashioned way: with printlines.",
+    "keywords": [
+        "package",
+        "debug",
+        "output",
+        "logging",
+        "logger"
+    ],
+    "homepage": "https://github.com/nklatt/debugout",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "Nathan Klatt",
+            "email": "nathan.klatt@gmail.com"
+        }
+    ],
+    "require" : {
+        "php": "^5.3 | ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NKlatt\\DebugOut\\": "src"
+        }
+    }
+}
