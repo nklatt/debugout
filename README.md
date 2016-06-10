@@ -9,6 +9,7 @@ What they do is allow you to instrument code so that you can trace the execution
 
 ## Sample Output
 
+### Default
 ```
 --> outputPage
     --> outputHeader
@@ -38,6 +39,70 @@ What they do is allow you to instrument code so that you can trace the execution
     --> outputFooter
     <-- outputFooter
 <-- outputPage
+```
+
+### Piped
+```
+--> outputPage
+ |  --> outputHeader
+ |   |  --> outputNav(header)
+ |   |   |  Adding to nav: Home
+ |   |   |  Adding to nav: About
+ |   |   |  Excluding from nav: History
+ |   |   |  Excluding from nav: Executives
+ |   |   |  Excluding from nav: Careers
+ |   |   |  Adding to nav: Contact
+ |   |   |  Adding to nav: Help
+ |   |  <-- outputNav(header)
+ |  <-- outputHeader
+ |  --> outputBody
+ |   |  --> outputSidebar
+ |   |   |  --> outputNav(sidebar)
+ |   |   |   |  Excluding from nav: Home
+ |   |   |   |  Adding to nav: About
+ |   |   |   |  Adding to nav: History
+ |   |   |   |  Adding to nav: Executives
+ |   |   |   |  Adding to nav: Careers
+ |   |   |   |  Excluding from nav: Contact
+ |   |   |   |  Adding to nav: Help
+ |   |   |  <-- outputNav(sidebar)
+ |   |  <-- outputSidebar
+ |  <-- outputBody
+ |  --> outputFooter
+ |  <-- outputFooter
+<-- outputPage
+```
+
+### Brief
+```
+->outputPage
+  ->outputHeader
+    ->outputNav(header)
+      Adding to nav: Home
+      Adding to nav: About
+      Excluding from nav: History
+      Excluding from nav: Executives
+      Excluding from nav: Careers
+      Adding to nav: Contact
+      Adding to nav: Help
+    <-outputNav(header)
+  <-outputHeader
+  ->outputBody
+    ->outputSidebar
+      ->outputNav(sidebar)
+        Excluding from nav: Home
+        Adding to nav: About
+        Adding to nav: History
+        Adding to nav: Executives
+        Adding to nav: Careers
+        Excluding from nav: Contact
+        Adding to nav: Help
+      <-outputNav(sidebar)
+    <-outputSidebar
+  <-outputBody
+  ->outputFooter
+  <-outputFooter
+<-outputPage
 ```
 
 ## Standards Followed
