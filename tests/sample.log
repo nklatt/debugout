@@ -1,0 +1,28 @@
+[10-Jun-2016 22:28:52 UTC] --> outputPage
+[10-Jun-2016 22:28:52 UTC]     --> outputHeader
+[10-Jun-2016 22:28:52 UTC]         --> outputNav(header)
+[10-Jun-2016 22:28:52 UTC]             Adding to nav: Home
+[10-Jun-2016 22:28:52 UTC]             Adding to nav: About
+[10-Jun-2016 22:28:52 UTC]             Excluding from nav: History
+[10-Jun-2016 22:28:52 UTC]             Excluding from nav: Executives
+[10-Jun-2016 22:28:52 UTC]             Excluding from nav: Careers
+[10-Jun-2016 22:28:52 UTC]             Adding to nav: Contact
+[10-Jun-2016 22:28:52 UTC]             Adding to nav: Help
+[10-Jun-2016 22:28:52 UTC]         <-- outputNav(header)
+[10-Jun-2016 22:28:52 UTC]     <-- outputHeader
+[10-Jun-2016 22:28:52 UTC]     --> outputBody
+[10-Jun-2016 22:28:52 UTC]         --> outputSidebar
+[10-Jun-2016 22:28:52 UTC]             --> outputNav(sidebar)
+[10-Jun-2016 22:28:52 UTC]                 Excluding from nav: Home
+[10-Jun-2016 22:28:52 UTC]                 Adding to nav: About
+[10-Jun-2016 22:28:52 UTC]                 Adding to nav: History
+[10-Jun-2016 22:28:52 UTC]                 Adding to nav: Executives
+[10-Jun-2016 22:28:52 UTC]                 Adding to nav: Careers
+[10-Jun-2016 22:28:52 UTC]                 Excluding from nav: Contact
+[10-Jun-2016 22:28:52 UTC]                 Adding to nav: Help
+[10-Jun-2016 22:28:52 UTC]             <-- outputNav(sidebar)
+[10-Jun-2016 22:28:52 UTC]         <-- outputSidebar
+[10-Jun-2016 22:28:52 UTC]     <-- outputBody
+[10-Jun-2016 22:28:52 UTC]     --> outputFooter
+[10-Jun-2016 22:28:52 UTC]     <-- outputFooter
+[10-Jun-2016 22:28:52 UTC] <-- outputPage
